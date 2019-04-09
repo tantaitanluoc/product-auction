@@ -40,6 +40,6 @@ class Events {
     console.log('Open.');
   }
 }
-Events.URL_HIST = 'http://18.212.13.51:3000/api/system/historian';
-Events.URL_TRADE = 'ws://18.212.13.51:3000';
+Events.URL_HIST = 'http://3.86.210.165:3000/api/system/historian';
+Events.URL_TRADE = 'ws://3.86.210.165:3000';
 let app = new Events();
