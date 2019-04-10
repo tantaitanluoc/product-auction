@@ -70,3 +70,12 @@ transaction AddProduct {
   o String description
   --> Seller owner
 }
+event TradeEvent {
+  o String type
+  o String ownerId
+  o String id
+  o String description
+  o String status
+  o Double amount
+  o String buyerId
+}
