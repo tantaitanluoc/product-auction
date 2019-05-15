@@ -40,6 +40,7 @@ class Events {
     console.log('Open.');
   }
 }
-Events.URL_HIST = 'http://3.86.210.165:3000/api/system/historian';
+token="sGweUjGtcmyNg8JUItbxMcFqwrYCrJAR1uhPpD5P5NgYafb2Bl9gRRNen2D2boXx";
+Events.URL_HIST = 'http://3.86.210.165:3000/api/system/historian?access_token='+token;
 Events.URL_TRADE = 'ws://3.86.210.165:3000';
 let app = new Events();
